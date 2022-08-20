@@ -1,0 +1,113 @@
+.brand {
+	position: relative;
+	z-index: 10;
+}
+
+.brand__main{
+	width: 134px;
+}
+
+.room {
+	position: relative;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.room:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%);
+	transition: all .2s ease-out;
+}
+
+.room:hover:before {
+	height: 0%;
+}
+
+.room__photo {
+
+}
+
+.room__title {
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+	right: 50px;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.form {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.form__item {
+	width: calc( 50% - 15px );
+	margin-bottom: 35px;
+}
+
+.form-control {
+	width: 100%;
+	border: none;
+	background-color: rgba(255, 255, 255, .2);
+	transition: all .09s ease-out;
+	padding: 13px;
+	color: #fff;
+}
+
+.form-control:focus {
+	outline: none;
+	background-color: rgba(255, 255, 255, .24);
+}
+
+.form-control::placeholder {
+	color: #BEBEBE;
+}
+
+.map {
+	background-color: #626262;
+    width: 100%;
+    height: 400px;
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+	.room {
+		max-width: 400px;
+		margin: 0 auto 15px auto;
+	}
+}
+
+@media (max-width: 576px) {
+		.room {
+		max-width: 320px;
+	}
+
+	.room__title {
+		font-size: 18px;
+		left: 30px;
+		bottom: 26px;
+	}
+
+	.form {
+		max-width: 255px;
+		margin: auto;
+	}
+
+	 .form-control, #faq .btn, #faq span {
+		max-width: 281px;
+		margin: auto;
+	}
+
+}

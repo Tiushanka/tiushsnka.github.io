@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>5Кімнат</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<nav id="navbar" class="navbar">
+		<div class="container">			
+			<a href="#welcome" class="brand">
+				<img src="img/logo.jpg"   alt="" class="brand__main">
+			</a>
+			<div id="mobile-menu" class="mobile-wrap">
+				<ul class="navbar__menu">
+					<li>
+                        <a href="#cta" class="navbar__menu-link">Головна</a>
+					</li>
+					<li>
+						<a href="#facts" class="navbar__menu-link">Про нас</a>
+					</li>
+					<li>
+						<a href="#our_rooms" class="navbar__menu-link">Каталог </a>
+					</li>
+					<li>
+						<a href="#region" class="navbar__menu-link">Контактна інформація</a>
+					</li>
+                    <li>
+						<a href="#region" class="navbar__menu-link">Карта</a>
+					</li>
+				</ul>
+			</div>
+			<button id="toggle_menu" class="navbar__toggler" data-easy-toggle="#mobile-menu" data-easy-class="mobile-wrap_show">
+				<i></i>
+				<i></i>
+				<i></i>
+			</button>
+		</div>
+	</nav>
+
+	<header id="welcome" class="header" style="background-color:rgba(0,0,0,.8);background-blend-mode:overlay;background-image:url(img/header.jpg);background-size:cover;background-attachment:fixed;background-position:center">
+        <div class="container">
+			<div class="row">
+				
+				<div class="col-lg-8 offset-lg-2">
+					<div class="header__content">
+
+						<h1 class="wow animate__fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Ми працюємо для Вашого комфорту</h1>
+
+						<div class="header__mouse-effect">
+							<a href="#facts">
+								<img src="img/icons/mouse.svg" class="header__mouse-effect-mouse" alt="">
+							</a>
+						</div>
+
+						<div class="header__contacts">
+							<a href="#" class="header__contacts-item wow animate__fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+								<span>Адреса: Вул Степана Бандери, 12, Львів</span>
+							</a>
+
+							<a href="tel:+78121234567" class="header__contacts-item wow animate__fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+								<span>Номер телефону: +380(хх)хх-хх-ххх</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+ 	<!-- Каталог кімнат -->
+    <section id="our_rooms" class="section pb-0 pt-0">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12">
+					<h2 class="section__title">Каталог</h2>
+				</div>
+				
+				<div class="col-md-6">
+					<a href="#" class="link_unstyled">
+						<div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+							<img src="img/photo1.png" alt="" class="room__photo">
+							<h5 class="room__title">Кабінет</h5>
+						</div>
+					</a>
+				</div>
+                
+                <div class="col-md-6">
+					<a href="#" class="link_unstyled">
+						<div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+							<img src="img/photo2.png" alt="" class="room__photo">
+							<h5 class="room__title">Спальня</h5>
+						</div>
+					</a>
+				</div>
+                
+				<div class="col-md-6">
+					<a href="#" class="link_unstyled">
+						<div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+							<img src="img/photo3.png" alt="" class="room__photo">
+							<h5 class="room__title">Вітальня</h5>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-6">
+					<a href="#" class="link_unstyled">
+						<div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+							<img src="img/photo4.png" alt="" class="room__photo">
+							<h5 class="room__title">Кухня</h5>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-6">
+					<a href="#" class="link_unstyled">
+						<div class="room wow animate__fadeInUp" data-wow-delay=".4s" data-wow-offset="200">
+							<img src="img/photo5.png" alt="" class="room__photo">
+							<h5 class="room__title">Зала</h5>
+						</div>					
+					</a>
+				</div>
+                
+                <div class="col-md-6">
+					<a href="#" class="link_unstyled">
+						<div class="room wow animate__fadeInUp" data-wow-delay=".4s" data-wow-offset="200">
+							<img src="img/photo6.png" alt="" class="room__photo">
+							<h5 class="room__title">Додаткові</h5>
+						</div>					
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!-- Контакти -->
+	<section id="cta" class="section" style="background-image: url('img/view_sec.jpg');">
+		<div class="container">            
+			<div class="row posr align-items-center">				
+				<div class="col-md-6 wow animate__fadeInLeft" data-wow-delay=".1s" data-wow-offset="200">
+					<h2>Зв'язок</h2>					
+				</div>
+		
+				<div class="col-md-6 wow animate__fadeInRight" data-wow-delay=".2s" data-wow-offset="200">
+					<form action="#" method="POST">
+						<div class="form">
+							<div class="form__item">
+								<input type="text" class="form-control" placeholder="Ваше ім'я">
+							</div>
+
+							<div class="form__item">
+								<input type="text" class="form-control" placeholder="Ваша пошта">
+							</div>
+                            
+                            <div class="form__item">                               
+								<input type="text" class="form-control" placeholder="Ваш запит:">
+							</div>
+														
+							<div class="form__item">
+								<button class="btn btn-accent">Відправити
+                                </button>								
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Карта -->
+<section>
+    <div class='contact-map'>
+        <iframe allowfullscreen='' class='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53905.8502293763!2d33.10361854275304!3d48.65326092942128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40da77912922d8ad%3A0x495c20eba37b7efb!2z0JzQsNCz0LDQt9C40L0gIjUt0JrQhtCc0J3QkNCiIg!5e0!3m2!1suk!2sua!4v1660983709714!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+                <ul class="footer__contacts">
+                    <li>Адрес: вул Степана Бандери, 12, Львів</li>
+                    <li>Телефон: <a href="tel:+380ххххххххх">+380(хх)хх-хх-ххх</a></li>
+                    <li>Instagram: xxxxxxx.xxx</li>
+                    <li>E-mail: <a href="xxxxx.gmail.com">xxxxx.gmail.com</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="libs/wow.min.js"></script>
+	<script src="libs/easy-toggler.min.js"></script>
+	<script src="js/main.js"></script>
+	
+</body>
+</html>
